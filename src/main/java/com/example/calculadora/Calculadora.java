@@ -103,11 +103,16 @@ public class Calculadora extends Application {
         operatorHandler.handle(null);
     };
 
+
+
     @Override
     public void start(Stage stage) throws Exception {
         stage.setTitle("Calculadora");
         BorderPane borderPane = new BorderPane();
 
+        etiOperando1 = new TextField();
+
+        etiOperando2 = new TextField();
 
         //Parte Superior
 
